@@ -10,19 +10,15 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid px-3">
-            <!-- Logo on the left -->
             <a class="navbar-brand" href="home.html">
-                <img src="pictures/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 Experience
             </a>
     
-            <!-- Hamburger menu button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
     
-            <!-- Navigation links -->
-            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" id="Destinations-tab" href="#">Destinations</a>
@@ -31,7 +27,7 @@
                         <a class="nav-link" id="Gallery-tab" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="Blog-tab" aria-current="page" href="#">Blog</a>
+                        <a class="nav-link" id="Blog-tab" aria-current="page" href="trial.html">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="FAQs-tab" aria-current="page" href="#">FAQs</a>
@@ -45,11 +41,11 @@
         <img src="pictures/home_img.gif" class="main-image" alt="idk">
     </div>
 
-    <div class="d-flex align-items-center mt-5 mb-5">
-      <hr class="flex-grow-1">
-      <h2 class="mx-4">Introduction</h2>
-      <hr class="flex-grow-1">
-  </div>
+    <div class="section-separator my-5">
+        <div class="separator-line"></div>
+        <h2 class="section-title">Introduction</h2>
+        <div class="separator-line"></div>
+    </div>
 
   <div class="container mt-5 mb-5">
     <div class="row justify-content-center">
@@ -63,10 +59,10 @@
 
 
 
-<div class="d-flex align-items-center mt-5 mb-5">
-    <hr class="flex-grow-1">
-    <h2 class="mx-4">Featured</h2>
-    <hr class="flex-grow-1">
+<div class="section-separator my-5">
+    <div class="separator-line"></div>
+    <h2 class="section-title">Featured</h2>
+    <div class="separator-line"></div>
 </div>
 
 <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
@@ -74,22 +70,22 @@
         <!-- First Slide -->
         <div class="carousel-item active">
             <div class="d-flex justify-content-around">
-                <div class="card" style="width: 18rem;">
-                    <img src="pictures/beach.jpg" class="card-img-top" style="height: 200 !important ; object-fit: cover;" alt="...">
+                <div class="card" style="width: 18rem; background-color: #16161a; color: #94a1b2; font-family: 'Courier New', Courier, monospace;">
+                    <img src="pictures/beach.jpg" class="card-img-top  w-100 h-100" style="height: 200 !important ; object-fit: cover;" alt="...">
                     <div class="card-body">
                         <p class="card-text">Sharm El Sheikh</p>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="pictures/sphinx.jpg" class="card-img-top" style="height: 200 !important ; object-fit: cover;"alt="...">
+                <div class="card" style="width: 18rem; background-color: #16161a; color: #94a1b2;">
+                    <img src="pictures/sphinx.jpg" class="card-img-top  w-100 h-100" style="height: 200 !important ; object-fit: cover;"alt="...">
                     <div class="card-body">
-                        <p class="card-text">The Pyramids of Giza</p>
+                        <p class="card-text">The Great Sphinx of Giza</p>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="pictures/karnak.jpg" class="card-img-top" style="height: 200 !important; object-fit: cover;" alt="...">
+                <div class="card" style="width: 18rem; background-color: #16161a; color: #94a1b2;">
+                    <img src="pictures/karnak.jpg" class="card-img-top  w-100 h-100" style="height: 200 !important; object-fit: cover;" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Karnak Temple</p>
+                        <p class="card-text">Dendera Temple of Hathor</p>
                     </div>
                 </div>
             </div>
@@ -97,22 +93,22 @@
         <!-- Second Slide -->
         <div class="carousel-item">
             <div class="d-flex justify-content-around">
-                <div class="card" style="width: 18rem;">
-                    <img src="pictures/karnak.jpg" class="card-img-top" style="height: 200 !important; object-fit: cover;" alt="...">
+                <div class="card" style="width: 18rem; background-color: #16161a; color: #94a1b2;">
+                    <img src="pictures/museum.jpg" class="card-img-top  w-100 h-100" style="height: 200 !important; object-fit: cover;" alt="...">
                     <div class="card-body p-2">
-                        <p class="card-text fs-6">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text fs-6">The Egyptian Museum in Cairo</p>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="pictures/citadel.jpg" class="card-img-top" style="height: 200 !important; object-fit: cover;" alt="...">
+                <div class="card" style="width: 18rem; background-color: #16161a; color: #94a1b2;">
+                    <img src="pictures/citadel.jpg" class="card-img-top w-100 h-100" style="height: 200 !important; object-fit: cover;" alt="...">
                     <div class="card-body">
                         <p class="card-text">Salah EL Din Citadel</p>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="pictures/insideOfTemple.jpg" class="card-img-top"  style="height: 200 !important; object-fit: cover;" alt="...">
+                <div class="card" style="width: 18rem; background-color: #16161a; color: #94a1b2;">
+                    <img src="pictures/abusimbel.jpg" class="card-img-top  w-100 h-100"  style="height: 200 !important; object-fit: cover;" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Valley of The Kings</p>
+                        <p class="card-text">The Great Temple of Abu Simbel</p>
                     </div>
                 </div>
             </div>
@@ -120,7 +116,6 @@
     </div>
 
 
-    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
