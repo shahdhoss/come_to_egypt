@@ -5,38 +5,20 @@ body {
   box-sizing: border-box;
   background-color: #f4f4f4;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #00008B;
-}
 
-li {
-  float: left;
-  margin-right: 20px; 
+body{
+  background-color: #f8f5f2 !important; 
+    font-family:'Courier New', Courier, monospace !important;
 }
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+body,h2{
+  color: #232323;
 }
-
-li a:hover {
-  background-color: #191970;
+p{
+  color: #222525;
 }
-
-li img {
-  height: 40px; 
-  width: 100px; 
-  padding: 5px; 
-  margin-right: 20px; 
+body,h2,p{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
-
 
 .hero-content {
   text-align: center;
@@ -68,13 +50,6 @@ li img {
   border-radius: 5px;
 }
 
-.topnav {
-  display: flex;
-  align-items: center;
-  border: 1px solid #ccc;
-  border-radius: 25px;
-  padding: 5px;
-}
 
 input[type="text"] {
   width: calc(100% - 80px); 
