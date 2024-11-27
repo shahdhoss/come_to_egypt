@@ -7,6 +7,7 @@ body {
 /* Navbar */
 .navbar-brand span.gradient-text {
     background: linear-gradient(45deg, #007BFF, #00c9ff);
+    background-clip: padding-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.8rem;
@@ -45,6 +46,22 @@ body {
     font-weight: bold;
     color: #004d73;
     text-transform: uppercase;
+}
+
+.blog-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.blog-content blockquote {
+    font-style: italic;
+    color: #6c757d;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  font-size: 0.9rem;
 }
 
 .blog-content p {
