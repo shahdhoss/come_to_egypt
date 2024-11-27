@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #212529;
+}
+
+/* Navbar */
+.navbar-brand span.gradient-text {
+    background: linear-gradient(45deg, #007BFF, #00c9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007BFF;
+}
+
+/* Hero Section */
+.blog-hero {
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-hero img.bg-overlay {
+    filter: brightness(60%);
+    object-fit: cover;
+}
+
+.blog-hero .z-index-1 {
+    z-index: 1;
+}
+
+/* Blog Content */
+.blog-content h2 {
+    font-weight: bold;
+    color: #004d73;
+    text-transform: uppercase;
+}
+
+.blog-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.blog-content blockquote {
+    font-style: italic;
+    color: #6c757d;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  font-size: 0.9rem;
+}
