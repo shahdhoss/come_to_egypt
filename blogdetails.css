@@ -5,23 +5,22 @@ body {
 }
 
 /* Navbar */
-.navbar-brand span.gradient-text {
-    background: linear-gradient(45deg, #007BFF, #00c9ff);
-    background-clip: padding-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.8rem;
+.navbar {
+  background-color: #004d73; 
+  color: white; 
+  transition: background-color 0.3s ease; 
 }
-
+.navbar-brand span {
+  font-size: 1.5rem;
+  color: white; 
+}
 .nav-link {
-    font-weight: bold;
-    transition: color 0.3s ease;
+  color: white; 
+  transition: color 0.3s;
 }
-
 .nav-link:hover {
-    color: #007BFF;
+  color: #ffd700; 
 }
-
 /* Hero Section */
 .blog-hero {
     height: 50vh;
