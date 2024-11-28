@@ -1,5 +1,7 @@
-
-
+main
+{
+    margin-top: 7px;
+}
 article
 {
     --article-image-primary-color: rgba(255, 117, 48, var(--color-opacity, 1));
