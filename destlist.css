@@ -5,18 +5,23 @@ body {
     color: #333;
   }
   
-  .navbar-brand span {
-    font-size: 1.5rem;
-  }
-  
-  .nav-link {
-    transition: color 0.3s;
-  }
-  
-  .nav-link:hover {
-    color: #0056b3;
-  }
-  
+/* Navbar */
+.navbar {
+  background-color: #004d73; 
+  color: white; 
+  transition: background-color 0.3s ease; 
+}
+.navbar-brand span {
+  font-size: 1.5rem;
+  color: white; 
+}
+.nav-link {
+  color: white; 
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: #ffd700; 
+}
   /* Hero Section */
   header {
     background-image: linear-gradient(to bottom right, #323353, #5E6684);
